@@ -1,0 +1,156 @@
+/* home section styling */
+.home{
+    display: flex;
+    background-image: no-repeat center top ;
+    height: 100vh;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+  } 
+  
+  .home .max-width {
+    margin: auto 0 auto 40px;
+  }
+  
+  .home .home-content .text-1 {
+    font-size: 50px;
+    font-family: 'Berkshire Swash', cursive;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  .home .home-content .text-1 .for{
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    color: black;
+    text-shadow: 2px 2px 4px white;
+  }
+  .home .home-content .text-2 {
+    font-size: 85px;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 300;
+    margin-left: -3px;
+    font-family: 'Ranchers', cursive;
+    text-shadow: 2px 2px 4px white;
+  }
+  .home .home-content .text-3 {
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  .home .home-content .text-3 .change {
+    background-color: #FFFF00;
+    font-size: 50px;
+    color: black;
+    font-family: 'Ranchers', cursive;
+    text-shadow: none;
+  }
+  .home .home-content a {
+    display: inline-block;
+    background: #2867B2;
+    color: white;
+    font-size: 40px;
+    padding: 0px 10px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    box-shadow: 1px 1px 10px white;
+    padding-top: 5px;
+  }
+  #in-logo{
+      transform: translateY(-2px);
+  }
+  .home .home-content a:hover {
+    color: #2867B2;
+    text-shadow: 1px 1px 4px whitesmoke;
+    background: white;
+    border-color: #2867B2;
+    box-shadow: 1px 1px 10px white;
+  }
+  .home .home-content .github {
+    display: inline-block;
+    background: #333;
+    color: white;
+    font-size: 40px;
+    padding: 0px 10px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    box-shadow: 1px 1px 10px white;
+    padding-top: 5px;
+  }
+  .home .home-content .github:hover {
+    color: #333;
+    text-shadow: 1px 1px 4px whitesmoke;
+    background: white;
+    border-color: black;
+    box-shadow: 1px 1px 10px white;
+  }
+
+@media (max-width: 1300px) {
+    .home .max-width {
+        margin-left: 0px;
+    }
+}
+@media (max-width: 991px) {
+    .max-width {
+        padding: 0 50px;
+    }
+}
+@media (max-width: 947px) {
+    .home .home-content .text-2 {
+        font-size: 70px;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 45px;
+    }
+    .home .home-content .text-3 .change {
+        font-size: 50px;
+    }
+    .home .home-content a,
+    .home .home-content .github  {
+        font-size: 33px;
+        padding: 0px 10px;
+        padding-top: 2px;
+    }
+    #in-logo{
+      transform: translateY(-1px);
+    }
+    .max-width {
+        max-width: 800px;
+    }
+}
+@media (max-width: 690px) {
+    .max-width {
+      padding: 0 23px;
+    }
+    .home .home-content .text-3 .change {
+      font-size: 40px;
+    }
+    .home .home-content .text-2 {
+      font-size: 60px;
+    }
+    .home .home-content .text-3 {
+      font-size: 40px;
+    }
+    .home .home-content a,
+    .home .home-content .github {
+      font-size: 30px;
+      padding-top: 2px;
+    }
+    
+}
+@media (max-width: 500px) {
+    .home .home-content .text-2 {
+      font-size: 50px;
+    }
+  
+    .home .home-content .text-3 {
+      font-size: 35px;
+    }
+}
