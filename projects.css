@@ -2,6 +2,13 @@
 /* .projects .title::after {
   content: "what learnings";
 } */
+.projects{
+  background-color: rgb(255, 214, 175);
+}
+.projects .carousel {
+  background: gray;
+  padding: 30px;
+}
 .projects .carousel .card {
     background: #222;
     margin-top: 15px;

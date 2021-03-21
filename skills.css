@@ -1,3 +1,7 @@
+.skills .container{
+  background: rgb(196, 196, 196);
+  margin: 0 80px;
+}
 .skills .title::after {
     content: "what I know";
   }
@@ -7,7 +11,7 @@
   }
   
 .inner {
-    padding-top: 20px;
+    padding-top: 10px;
   }
   
   .header {
@@ -31,12 +35,12 @@
   
   .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     align-items: center;
     text-align: center;
     grid-gap: 1rem;
-    padding: 1rem 80px;
+    padding: 0 30px;
     font-size: 1.2rem;
   }
   
@@ -92,8 +96,8 @@
     width: 90px;
     height: 90px;
     position: relative;
-    border-radius: 50px;
-    background-color: rgb(156, 231, 253);
+    border-radius: 50%;
+    background-color: rgb(248, 168, 94);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,7 +111,7 @@
     left: 0;
     width: 50%;
     height: 90px;
-    background: rgba(100, 100, 100, 0.5);
+    background: rgba(223, 221, 221, 0.5);
     border-radius: 50px 0 0 50px;
   }
   
@@ -120,7 +124,33 @@
     width: 60px;
     z-index: 2;
   }
-  
+
+  #java{
+    width: 65px;
+  }
+  #python{
+    width: 130px;
+  }
+  #ds{
+    width: 100px;
+    transform: translateY(-3px);
+  }
+  #html{
+    width: 85px;
+  }
+  #node{
+    width: 80px;
+  }
+  #express{
+    width: 110px;
+  }
+  #mongo{
+    width: 75px;
+  }
+  #sql{
+  width: 80px;
+  }
+
   @media screen and (max-width: 990px) {
     .container {
       grid-template-columns: repeat(2 1fr);
@@ -130,6 +160,10 @@
   
   @media screen and (max-width: 650px) {
     .container {
-      grid-template-columns: repeat(3fr);
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .skills .container{
+      background: rgb(196, 196, 196);
+      margin: 0;
     }
   }

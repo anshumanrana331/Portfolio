@@ -1,6 +1,10 @@
 /* about styling starts */
+.about{
+  background: rgb(255, 231, 235);
+}
 .about .title::after {
     content: "who I am";
+    background: rgb(255, 231, 235);
   }
   .about .about-content .left {
     width: 45%;
