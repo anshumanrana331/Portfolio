@@ -161,6 +161,9 @@
       grid-template-columns: repeat(2 1fr);
       padding: 2rem 50px;
     }
+    .skills .container{
+      margin: 0;
+    }
   }
   
   @media screen and (max-width: 650px) {
@@ -168,7 +171,6 @@
       grid-template-columns: repeat(2, 1fr);
     }
     .skills .container{
-      background: rgb(196, 196, 196);
       margin: 0;
     }
   }
