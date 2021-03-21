@@ -163,6 +163,7 @@
     }
     .skills .container{
       margin: 0;
+      background: rgb(243, 233, 233);
     }
   }
   
@@ -172,5 +173,6 @@
     }
     .skills .container{
       margin: 0;
+      background: rgb(243, 233, 233);
     }
   }
