@@ -1,0 +1,38 @@
+
+/* contact section styling start */
+.contact .title::after{
+    content: "get in touch";
+  }
+.contact .links{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    margin: 0 30%;
+}
+.links i{
+    color: black;
+    transition: transform 0.2s;
+}
+.links i:hover{
+    transform: scale(1.2);
+}
+.links #in:hover{
+    color: #2867B2;
+}
+.links #insta:hover{
+    color: #BB001B;
+}
+.links #mail:hover{
+    color: rgb(252, 81, 14);
+}
+
+@media (max-width: 947px) {
+    .contact .links{
+        margin: 0 20%;
+    } 
+}
+@media (max-width: 500px) {
+    .contact .links{
+        margin: 0 10%;
+    } 
+}
